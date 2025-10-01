@@ -68,8 +68,6 @@ else:
     st.write(f"Slope (b1): {b1}")
     st.write(f"Intercept (b0): {b0}")
     st.write(f"Regression Line: ŷ = {b1}x + {b0}")
-    st.write(f"Predicted y values (ŷ): {y_hat}")
-    st.write(f"Residuals (y - ŷ): {residuals}")
     
     # Plotting: scatter + regression line
     st.subheader("Regression Plot")
