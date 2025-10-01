@@ -1,7 +1,7 @@
-pip install streamlit
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # ------------------ Function ------------------
 def least_squares_regression(x, y):
